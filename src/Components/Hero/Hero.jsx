@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header'
 import '../Hero/hero.css'
+import Sidebar from '../Utilities/Sidebar';
 
 class Hero extends Component {
 
@@ -27,23 +28,9 @@ class Hero extends Component {
                             </div>
                         </div> 
                     </div>
-                   
-                   
-                    <div className="social-media">
-                        {/* <div className="social-media__photo">
-                            <img src="alonso_me.jpg" 
-                                alt="Alonso Castilleja"
-                                width='200px'
-                                height='200px'
-                            ></img>
-                        </div> */}
-                        <ul className="social-media__links">
-                            <a href={'/'}><i class="fa fa-envelope"></i></a>
-                            <a href={'/'}><i class="fa fa-codepen"></i></a>
-                            <a href={'/'}><i class="fa fa-github"></i></a>
-                            <a href={'/'}><i class="fa fa-linkedin"></i></a>
-                        </ul>
-                    </div>
+                    
+                    <Sidebar />
+    
                     <div class="arrow">
                         <span></span>
                     </div>
