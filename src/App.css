@@ -17,6 +17,11 @@
     font-weight: lighter;
 }
 
+.char__font-about {
+    font-size: 2rem;
+    color: rgba(255, 0, 0, 0.425);
+}
+
 .span__underline-red {
 
     text-decoration: underline;

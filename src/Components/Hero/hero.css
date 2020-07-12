@@ -84,6 +84,7 @@
 
 .hero__photo img{
     border-radius: 2rem;
+    filter: grayscale(30%);
 }
 
 .social-media__links {
