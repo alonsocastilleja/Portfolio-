@@ -21,19 +21,12 @@ class Hero extends Component {
                             <img src="alonso_me.jpg" 
                                 alt="Alonso Castilleja"
                                 width='200px'
-                                height='200px'
+                                height='230px'
                             ></img>
-                            <div className="hero__contact">
-                                <h2>Contact me?</h2>
-                            </div>
                         </div> 
                     </div>
                     
                     <Sidebar />
-    
-                    <div class="arrow">
-                        <span></span>
-                    </div>
                 </main>
             </div>
         );

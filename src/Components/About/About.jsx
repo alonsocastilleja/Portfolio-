@@ -13,8 +13,7 @@ class About extends Component {
                     <article className="about__text">
                         <h2 className="about__heading"><span className="char__font">&#60;</span><span className="span__underline-red"> About Me</span><span className="char__font"> /&#62; </span></h2>
                         <p className="about__description">Hello, I am a hard working and passionate <span className="span__underline-red">software developer.</span> I enjoy the process of being 
-                        stuck on a problem and using  <span className="char__font-about">&#123;</span> Google <span className="char__font-about">&#125; </span>
-                        to solve it. I enjoy seeing my ideas and thoughts come to life through the use of different technologies.
+                        stuck on a problem and using Google to solve it. I enjoy seeing my ideas and thoughts come to life through the use of different technologies.
                         I am looking forward to learning more technologies and languages for the span of 
                         my career!
                         </p>

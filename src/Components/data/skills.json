@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "icon": "icons/css3.png",
+        "title": "CSS3"
+    },
+    {
+        "id": 2,
+        "icon": "icons/html5.png",
+        "title": "HTML5"
+    },
+    {
+        "id": 3,
+        "icon": "icons/javascript.png",
+        "title": "Javascript"
+    },
+    {
+        "id": 4,
+        "icon": "icons/github.png",
+        "title": "Github/Git"
+    },
+    {
+        "id": 5,
+        "icon": "icons/nodejs.png",
+        "title": "Node JS"
+    },
+    {
+        "id": 6,
+        "icon": "icons/mysql.png",
+        "title": "MySQL"
+    },
+    {
+        "id": 7,
+        "icon": "icons/reactjs.png",
+        "title": "ReactJS"
+    },
+    {
+        "id": 9,
+        "icon": "icons/sass.png",
+        "title": "SASS"
+    }
+]
