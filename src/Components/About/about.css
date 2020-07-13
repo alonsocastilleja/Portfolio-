@@ -91,5 +91,9 @@
     display: flex;
     justify-content: flex-end;
 }
-
+.arrow {
+    height: 20rem;
+    width: 20rem;
+    background: red;
+}
 

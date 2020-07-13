@@ -8,10 +8,15 @@ import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 
 function App() {
+  const scrollIntoThisDiv = (id) => {
+    const divToScrollInto = document.getElementById(`${id}`);
+    divToScrollInto.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <div className="App">
-      <Hero />
-      <About />
+      <Hero scrollIntoThisDiv={scrollIntoThisDiv}/>
+      <About scrollIntoThisDiv={scrollIntoThisDiv}/>
       <Skills />
       <Projects />      
       <Contact />

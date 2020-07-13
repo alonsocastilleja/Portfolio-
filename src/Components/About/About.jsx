@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../About/about.css'
 import Sidebar from '../Utilities/Sidebar';
 
 
-class About extends Component {
-    render() { 
+const About = (props) => {
         return (
             <div>
                 <section className="about">
@@ -32,13 +31,9 @@ class About extends Component {
                     </figure>
 
                     <Sidebar /> 
-                    <div class="arrow">
-                        <span></span>
-                    </div>
                 </section>
             </div>
         );
     }
-}
- 
+
 export default About;
