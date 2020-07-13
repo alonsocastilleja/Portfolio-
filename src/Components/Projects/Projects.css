@@ -1,7 +1,23 @@
 .projects {
     width: 100%;
     height: 100vh;
-    background: white;
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
+    background: #313030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    position: relative;
+}
+.projects__list {
+    text-align: center;
+    width: 30rem;
+    height: 10rem;
+    background: rgb(14, 13, 13);
+    display: flex;
+    align-items: center;
+}
+.projects__list h2 {
+    display: block;
+    height: 20%;
+    width: 100%;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Projects'
+import './Projects.css'
+import Sidebar from '../Utilities/Sidebar';
 
 
 
@@ -9,8 +10,9 @@ class Projects extends Component {
             <div>
                 <section className="projects">
                     <div className="projects__list">
-                        <h1>Heoa=c</h1>
+                        <h2>Projects coming soon.....</h2>
                     </div>
+                    <Sidebar />
                 </section>
             </div>
         );

@@ -12,6 +12,7 @@
     width: 100%;
     padding: 3rem; 
     color: white;
+    border: thin solid black;
     border-radius: 2rem;
     background: rgba(36, 36, 36, 0.164);
     font-family: 'Teko', sans-serif;
@@ -29,7 +30,7 @@
 .hero__name-hello {
     font-size: 2rem;
     height: fit-content;
-    color: rgba(201, 201, 201, 0.712);
+    color: rgba(255, 255, 255, 0.658);
 }
 
 .hero__name {
