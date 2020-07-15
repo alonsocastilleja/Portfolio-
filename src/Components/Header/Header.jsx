@@ -8,10 +8,10 @@ class Header extends Component {
             <div>
                <section className="header">
                    <ul className="navbar hidden">
-                        <Link to="hero" 
+                        <Link to="about" 
                               smooth={true}
                               spy={true}
-                              className="navbar__links"><li className="link__active">Home</li></Link>
+                              className="navbar__links"><li className="link__active">About</li></Link>
                         <Link to="projects" 
                               smooth={true}
                               spy={true}

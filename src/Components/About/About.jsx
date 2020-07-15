@@ -24,7 +24,7 @@ const About = (props) => {
                             data-aos-delay="250"
                             data-aos-duration="2000"
                             className="about__text"
-                            src="alonso_me.png"
+                            src="icons/alonso_me.png"
                             alt="Beginning of the program"></img>
                     </figure>
                     <Arrow down={props.down} arrow={props.arrow} />

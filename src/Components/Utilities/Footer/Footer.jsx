@@ -13,7 +13,7 @@ const Footer = (props) => {
                             <a href={'https://github.com/alonsocastilleja'} rel="noopener noreferrer" target="_blank"><i className="fa fa-github"></i></a>
                             <a href={'https://www.linkedin.com/in/alonso-castilleja-nino-aa3924137/'} rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i></a>
                         </ul>
-                        <Arrow down={props.up} arrow={props.arrow} style={props.style} />
+                        <Arrow down={props.up} arrow={props.arrow} />
                     </div>
                 </div>
             </div>

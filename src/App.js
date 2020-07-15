@@ -19,9 +19,8 @@ class App extends Component {
       projects: "projects",
       contact: "contact",
       hero: "hero",
-      down: "down-arrow.svg",
-      up: "up-arrow.svg",
-      styles: {position: 'absolute'}
+      down: "icons/down-arrow.svg",
+      up: "icons/up-arrow.svg",
     }
   }
 
@@ -35,7 +34,7 @@ class App extends Component {
         <About down={this.state.skills} arrow={this.state.down}/>
         <Skills down={this.state.projects} arrow={this.state.down}/>
         <Projects down={this.state.contact} arrow={this.state.down}/>      
-        <Contact up={this.state.hero} arrow={this.state.up} style={this.state.styles}/>
+        <Contact up={this.state.hero} arrow={this.state.up} />
       </div>
   );
   }
