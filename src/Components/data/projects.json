@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "icon": "screenshots/movie-search.png",
+        "title": "CSS3",
+        "link": "https://find-your-favorite-movies-e37df8.netlify.app/"
+    },
+    {
+        "id": 2,
+        "icon": "screenshots/tictactoe.png",
+        "title": "HTML5",
+        "link": "https://tic-tac-toe-fun-67d5d1.netlify.app/"
+    },
+    {
+        "id": 3,
+        "icon": "icons/javascript.png",
+        "title": "Javascript",
+        "link": "https://r2h-the-verge-clone.netlify.app/"
+    },
+    {
+        "id": 4,
+        "icon": "icons/github.png",
+        "title": "Github",
+        "link": "https://githubcards-3aca50.netlify.app/"
+    },
+    {
+        "id": 5,
+        "icon": "icons/git.png", 
+        "title": "Git",
+        "link": "https://speechrecognition-af04e3.netlify.app/"
+    },
+    {
+        "id": 6,
+        "icon": "icons/nodejs.png",
+        "title": "Node JS",
+        "link": "https://5eea7eebf4d12d95e2b74fc4--titansolutions2nd-7805af.netlify.app/"
+    },
+    {
+        "id": 6,
+        "icon": "icons/mysql.png",
+        "title": "MySQL"
+    },
+    {
+        "id": 7,
+        "icon": "icons/reactjs.png",
+        "title": "ReactJS"
+    },
+    {
+        "id": 9,
+        "icon": "icons/sass.png",
+        "title": "SASS"
+    },
+    {
+        "id": 10,
+        "icon": "icons/design.png",
+        "title": "Design Thinking"
+    }
+]

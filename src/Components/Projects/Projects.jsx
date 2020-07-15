@@ -1,22 +1,21 @@
-import React, { Component } from 'react';
-import './Projects.css'
-import Sidebar from '../Utilities/Sidebar';
+import React from 'react';
+import './Projects.css';
+import Arrow from '../Utilities/Arrows/Arrows';
 
 
 
-class Projects extends Component {
-    render() {
+const Projects = (props) => {
         return (
             <div>
-                <section className="projects">
+                <section className="projects" id="projects">
                     <div className="projects__list">
-                        <h2>Projects coming soon.....</h2>
+                        {  
+                            <h2>Coming soon...</h2>
+                        }
                     </div>
-                    <Sidebar />
+                    <Arrow down={props.down} arrow={props.arrow} />
                 </section>
             </div>
         );
     }
-}
-
 export default Projects;

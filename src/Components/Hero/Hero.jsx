@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from '../Header/Header'
 import '../Hero/hero.css'
 import Sidebar from '../Utilities/Sidebar';
+import Arrow from '../Utilities/Arrows/Arrows';
 
-class Hero extends Component {
-
-
-    render() {
+const Hero = (props) => {
+    console.log(props)
         return (
             <div>
                 <main className="hero">
@@ -16,21 +15,12 @@ class Hero extends Component {
                         <h1 className="hero__name-hello">Hello, my name is</h1>
                         <h2 className="hero__name">Alonso <span className="span__underline-red">Castilleja</span><span className="span__style-red">.</span></h2>
                         <p className="hero__subtitle"><span className="char__font">&#60;</span>  Software Developer <span className="char__font"> /&#62; </span></p>
-                        
-                        <div className="hero__photo">
-                            <img src="alonso_me.jpg" 
-                                alt="Alonso Castilleja"
-                                width='200px'
-                                height='230px'
-                            ></img>
-                        </div> 
+                        <button className="hero__btn"><a href="/resume.pdf" target="_blank">Resume</a></button>
                     </div>
-                    
                     <Sidebar />
+                    <Arrow down={props.down} arrow={props.arrow} />
                 </main>
             </div>
         );
     }
-}
-
 export default Hero;

@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 html, body {
@@ -15,15 +16,14 @@ a, a:visited, a:active {
 
 /* Header Styling */
 .header {
+    color: #e7e7e7;
     height: 8vh;
     width: 100%;
     position: absolute;
     top: 3rem;
     right: 3rem;
-    color: #e7e7e79c;
     display: flex;
     justify-content: flex-end;
-    z-index: 9;
 }
 
 .navbar {
@@ -44,15 +44,15 @@ a, a:visited, a:active {
     text-decoration: none;
     height: 100%;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-family: 'Mukta', sans-serif;
     font-weight: bold;
+    transition-duration: 1s;
 }
-
 .navbar__links:hover {
-    color: white;
-    border-bottom: 4px solid whitesmoke;
-    transition: all 0.2s ease-in-out;
+    color: #5353cf;
+    border-bottom: thin solid rgba(255, 255, 255, 0.048);
+    cursor: pointer;
 }
 
 

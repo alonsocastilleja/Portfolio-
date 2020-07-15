@@ -10,8 +10,9 @@
 }
 .projects__list {
     text-align: center;
-    width: 30rem;
-    height: 10rem;
+    margin: auto;
+    width: 30%;
+    height: 30%;
     background: rgb(14, 13, 13);
     display: flex;
     align-items: center;
@@ -20,4 +21,13 @@
     display: block;
     height: 20%;
     width: 100%;
+}
+.projects__card {
+    background: red;
+    max-width: 100%;
+    grid-template-rows: 5fr 1fr;
+}
+.projects__card img {
+    width: 100%;
+    height: 100px;
 }

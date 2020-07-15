@@ -1,20 +1,21 @@
 .about {
+    background: url('https://images.unsplash.com/photo-1506794778225-cbf6c8df4c5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
-    height: 100vh;
-    opacity: 0.99;
+    height: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 .about__text {
     background: rgba(0, 0, 0, 0.2);
-    color: white;
+    color: #FFF;
     padding: 3rem;
     max-width: 600px;
     height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
     text-align: center;
     letter-spacing: 0.05rem;
     display: flex;
@@ -25,12 +26,9 @@
     font-size: 1.8rem;
 }
 .about__quote {
-    display: block;
     margin-top: 5rem;
     font-style: italic;
     font-size: 1.2rem;
-    border-right: thick solid rgba(255, 0, 0, 0.425);
-    border-radius: 0.7rem;
     color: rgba(255, 255, 255, 0.884);
 }
 .about__quote-sub {
@@ -43,21 +41,13 @@
 }
 .about__photo {
     background: rgba(99, 99, 99, 0.03);
-    width: 30%;
-    height: 32rem;
-    position: absolute;
-    left: 20%;
-    top: 11%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5rem;
-    padding: 3rem;
+    height: 30rem;
 }
 .about__photo img {
-    display: block;
-    border: 1px solid black;
-    border-radius: 5rem;
-    filter: grayscale(30%);
+    max-width: 100%;
+    max-height: 100%;
+    filter: grayscale(20%);
+    border-radius: 4rem;
 }
 .about__btn {
     outline: none;
@@ -65,8 +55,8 @@
     height: 3rem;
     border-radius: 5rem;
     width: 100%;
-    color: white;
-    background: rgba(255, 0, 0, 0.308);
+    color: black;
+    background: #ADADAD;
     border: 1px solid black;
 }
 .about__btn:hover {
@@ -81,19 +71,5 @@
     letter-spacing: 0.2rem;
     width: 100%;
 }
-.about__left {
-    background: #121212;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-.arrow {
-    height: 20rem;
-    width: 20rem;
-    background: red;
-}
+   
 

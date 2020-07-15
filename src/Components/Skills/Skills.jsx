@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './skills.css';
-import 'font-awesome/css/font-awesome.min.css';
-import Sidebar from '../Utilities/Sidebar';
 import skills from '../data/skills.json'
+import Arrow from '../Utilities/Arrows/Arrows';
 
-class Skills extends Component {
-    render() {
+const Skills = (props) => {
         return (
             <div>
                 <section className="skills">
@@ -18,11 +16,12 @@ class Skills extends Component {
                                 skills.map((skill) => {
                                     return (
                                         <div 
-                                            className="skills__icon-square">
+                                            className="skills__icon-square"
+                                            data-aos="fade-up"
+                                            data-aos-delay="350"
+                                            data-aos-duration="1000">
                                             <img 
-                                                src={skill.icon} 
-                                                height="60%"
-                                                width="60%"
+                                                src={skill.icon}
                                                 alt="hwovjnwai"></img>
                                                 <p className="skills__title">{skill.title}</p>
                                         </div>
@@ -31,11 +30,10 @@ class Skills extends Component {
                             }
                         </div>
                     </div>
-                    <Sidebar />
+                    <Arrow down={props.down} arrow={props.arrow} />
                 </section>
             </div>
         );
     }
-}
 
 export default Skills;

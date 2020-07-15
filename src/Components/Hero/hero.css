@@ -1,44 +1,63 @@
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url('https://images.unsplash.com/photo-1518445595280-c2278e3517ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: absolute;
+    position: relative;
     opacity: 0.99;
+    background: #080808;
 }
 .hero__text {
-    width: 100%;
-    padding: 3rem; 
-    color: white;
-    border: thin solid black;
-    border-radius: 2rem;
-    background: rgba(36, 36, 36, 0.164);
-    font-family: 'Teko', sans-serif;
-    letter-spacing: 0.2rem;
+    color: #FFF;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
     font-size: 3rem;
     font-weight: bold;
-    width: 70vw;
+    width: 100vw;
     position: absolute;
-    left: 20%;
-    bottom: 20%;
+    top: 26%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+}
+.hero__btn {
+    width: 10rem;
+    height: fit-content;
+    padding: 0.5rem;
+    background: none;
+    color: #FFF;
+    font-size: 2rem;
+    border: 0.1rem solid #191970;
+}
+.hero__btn a{
+    text-decoration: none;
+}
+.hero__btn:hover {
+    background: #191970;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+}
+.hero__btn:hover::before {
+    content: '< ';
+    transition: all ease-in 0.5s;
+}
+.hero__btn:hover::after {
+    content: ' >';
+    transition: all ease-in 0.5s;
 }
 .hero__name-hello {
     font-size: 2rem;
     height: fit-content;
-    color: rgba(255, 255, 255, 0.658);
+    color: rgba(255, 255, 255, 0.795);
+    letter-spacing: 0.05rem;
 }
-
 .hero__name {
+    height: fit-content;
     font-size: 6rem;
 }
 
 .hero__subtitle {
-    align-self: flex-start;
+    display: block;
+    height: fit-content;
     font-size: 3rem;
     letter-spacing: 0.2rem;
     font-family: 'Teko', sans-serif;
@@ -46,7 +65,7 @@
 }
 
 .hero__contact {
-    background: rgba(255, 0, 0, 0.452);
+    background: #ADADAD;
     font-size: 0.5rem;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.7rem;
@@ -56,8 +75,6 @@
     margin: auto;
 }
 .hero__photo {
-    border-left: 1px solid rgba(255, 0, 0, 0.425);
-    border-right: 1px solid rgba(255, 0, 0, 0.425);
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -67,5 +84,4 @@
 }
 .hero__photo img{
     border-radius: 2rem;
-    filter: grayscale(30%);
 }

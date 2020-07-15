@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-import Sidebar from '../Utilities/Sidebar'
+import React from 'react';
 import './contact.css'
+import Footer from '../Utilities/Footer/Footer';
 
-class Contact extends Component {
-    render() {
+const Contact = (props) => {
         return (
             <div>
                 <section id="contact">
+                    <div className="contact__title">
+                        <h2>Want to get in touch with me?</h2>
+                        <p className="contact__subheading">Please fill out the form below and I will respond to your as soon as possible!</p>
+                    </div>
                     <div className="contact__container">
                         <form name="htmlform" method="post" action="https://formsubmit.co/castilleja.alonso@gmail.com">
                             <input type="text" name="first_name" placeholder="NAME" required></input>
@@ -15,11 +18,10 @@ class Contact extends Component {
                             <button name="send" type="submit" className="contact__submit-btn">SEND</button>
                         </form> 
                     </div>
-                    <Sidebar />
+                    <Footer up={props.up} arrow={props.arrow} style={props.style} />
                 </section>
             </div>
         );
     }
-}
 
 export default Contact;

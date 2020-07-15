@@ -1,0 +1,31 @@
+.arrow
+{
+  position: absolute;
+  bottom: 1rem;
+  left: 48%;
+  width: 3rem;
+  height: 3rem;
+
+  /**
+   * Dark Arrow Down
+   */
+}
+.arrow img {
+    width: 100%;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-0.7rem);
+  }
+  60% {
+    transform: translateY(-1rem);
+  }
+}

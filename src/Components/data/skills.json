@@ -17,7 +17,12 @@
     {
         "id": 4,
         "icon": "icons/github.png",
-        "title": "Github/Git"
+        "title": "Github"
+    },
+    {
+        "id": 5,
+        "icon": "icons/git.png", 
+        "title": "Git"
     },
     {
         "id": 5,
@@ -38,5 +43,10 @@
         "id": 9,
         "icon": "icons/sass.png",
         "title": "SASS"
+    },
+    {
+        "id": 10,
+        "icon": "icons/design.png",
+        "title": "Design Thinking"
     }
 ]

@@ -1,11 +1,12 @@
 .social-media {
-    background: rgba(22, 22, 22, 0.178);
     width: 8vw;
     height: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
+    border-right: thin solid rgba(255, 255, 255, 0.048);
 }
+
 .social-media__links {
     color: rgba(255, 255, 255, 0.733);
     width: 100%;
@@ -15,13 +16,12 @@
     justify-content: center;
     flex-direction: column;
 }
-
 .social-media__links i {
-    font-size: 1.8rem;
-    margin: 15px 0;
+    font-size: 1.4rem;
+    margin: 1rem;
     letter-spacing: 0.3rem;
 }
 
 .social-media__links i:hover {
-    color: rgba(255, 0, 0, 0.425);
+    color: #191970;
 }
