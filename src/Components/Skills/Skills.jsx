@@ -13,9 +13,10 @@ const Skills = (props) => {
                         </div>
                         <div className="skills__icons">
                             {
-                                skills.map((skill) => {
+                                skills.map((skill, i) => {
                                     return (
                                         <div 
+                                            key={i}
                                             className="skills__icon-square"
                                             data-aos="fade-up"
                                             data-aos-delay="350"

@@ -25,17 +25,17 @@
         "title": "Git"
     },
     {
-        "id": 5,
+        "id": 6,
         "icon": "icons/nodejs.png",
         "title": "Node JS"
     },
     {
-        "id": 6,
+        "id": 7,
         "icon": "icons/mysql.png",
         "title": "MySQL"
     },
     {
-        "id": 7,
+        "id": 8,
         "icon": "icons/reactjs.png",
         "title": "ReactJS"
     },
