@@ -13,7 +13,10 @@
 .arrow img {
     width: 100%;
 }
-
+#arrowFooter {
+  position: absolute;
+  right: 0rem;
+}
 .bounce {
   animation: bounce 2s infinite;
 }
