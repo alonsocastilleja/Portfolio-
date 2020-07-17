@@ -1,7 +1,7 @@
 import React from 'react';
 import Arrow from '../Utilities/Arrows/Arrows';
 import projects from '../data/projects.json';
-import './projects.css'
+import './projects.css';
 
 
 const Projects = (props) => {
