@@ -19,7 +19,7 @@ const Skills = (props) => {
                                             key={i}
                                             className="skills__icon-square"
                                             data-aos="fade-up"
-                                            data-aos-delay="350"
+                                            data-aos-delay="250"
                                             data-aos-duration="1000">
                                             <img 
                                                 src={skill.icon}

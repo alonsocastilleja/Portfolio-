@@ -51,7 +51,7 @@ a, a:visited, a:active {
 }
 .navbar__links:hover {
     color: #5353cf;
-    border-bottom: thin solid rgba(255, 255, 255, 0.048);
+    border-bottom: thin solid #3737be;
     cursor: pointer;
 }
 

@@ -4,7 +4,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    border-right: thin solid rgba(255, 255, 255, 0.048);
+    border-right: 0.07rem solid #19197077;
 }
 
 .social-media__links {

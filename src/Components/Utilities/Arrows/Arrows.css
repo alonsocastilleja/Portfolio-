@@ -3,8 +3,8 @@
   position: absolute;
   bottom: 1rem;
   left: 48%;
-  width: 3rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
 
   /**
    * Dark Arrow Down
@@ -18,7 +18,7 @@
   right: 0rem;
 }
 .bounce {
-  animation: bounce 2s infinite;
+  animation: bounce 1.75s infinite;
 }
 
 @keyframes bounce {
@@ -26,9 +26,9 @@
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-0.7rem);
+    transform: translateY(-1.3rem);
   }
   60% {
-    transform: translateY(-1rem);
+    transform: translateY(-1.6rem);
   }
 }

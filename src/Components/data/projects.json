@@ -22,11 +22,12 @@
     },
     {
         "id": 4,
-        "icon": "screenshots/friends.png",
-        "title": "Manage Friends",
-        "link": "https://githubcards-3aca50.netlify.app/",
-        "github": "https://github.com/alonsocastilleja/Manage-Friends-"
-    },
+        "icon": "screenshots/ecommerce-2nd.png",
+        "title": "Ecommerce - 2nd",
+        "github": "https://github.com/alonsocastilleja/TitanSolutions-Ecommerce-2nd",
+        "link": "https://5eea7eebf4d12d95e2b74fc4--titansolutions2nd-7805af.netlify.app/"
+    }
+    ,
     {
         "id": 5,
         "icon": "screenshots/todo.png", 
@@ -41,14 +42,14 @@
         "github": "https://github.com/alonsocastilleja/Guessing-Game-w-Speech-Recogniton"
     },
     {
-        "id": 6,
+        "id": 7,
         "icon": "screenshots/github-find.png",
         "title": "Github Card Search",
         "link": "https://githubcards-3aca50.netlify.app/",
         "github": "https://github.com/alonsocastilleja/GithubCards"
     },
     {
-        "id": 7,
+        "id": 8,
         "icon": "screenshots/ecommerce-1st.png",
         "title": "Ecommerce - 1st",
         "link": "https://titanproductspt1-7e0e75.netlify.app/",
@@ -56,9 +57,9 @@
     },
     {
         "id": 9,
-        "icon": "screenshots/ecommerce-2nd.png",
-        "title": "Ecommerce - 2nd",
-        "github": "https://github.com/alonsocastilleja/TitanSolutions-Ecommerce-2nd",
-        "link": "https://5eea7eebf4d12d95e2b74fc4--titansolutions2nd-7805af.netlify.app/"
+        "icon": "screenshots/friends.png",
+        "title": "Manage Friends",
+        "link": "https://githubcards-3aca50.netlify.app/",
+        "github": "https://github.com/alonsocastilleja/Manage-Friends-"
     }
 ]

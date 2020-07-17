@@ -1,18 +1,69 @@
 .projects {
-    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    background: url('https://images.unsplash.com/photo-1511140973288-19bf21d7e771?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80');
     height: 100vh;
-    background: #313030;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
+    width: 100%;
+    padding: 0rem 3rem;
     position: relative;
+    justify-items: center;
+}
+.projects__heading {
+        width: 50%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0;
+}
+.projects__heading h2 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 2rem;
+}
+.projects__heading-font {
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-family: 'Teko', sans-serif;
+}
+.projects__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .projects__card {
-    background: red;
-    max-width: 100%;
+    display: grid;
+    grid-template-rows: 8fr 2fr 1.5fr 1.5fr;
+    height: 25rem;
+    margin: auto 2rem;
 }
 .projects__card img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.projects__subheading {
+    color: #FFF;
+    text-align: center;
+    align-self: center;
+    font-size: 2.5rem;
+}
+.projects__btn {
+    align-self: center;
+    justify-self: center;
+    width: 10rem;
+    height: fit-content;
+    padding: 0.2rem;
+    background: none;
+    color: #FFF;
+    font-size: 1.5rem;
+    border: 0.1rem solid #707019;
+}
+.projects__btn a{
+    text-decoration: none;
+}
+.projects__btn:hover {
+    background: #191970;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
 }
