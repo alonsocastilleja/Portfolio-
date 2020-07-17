@@ -20,7 +20,7 @@ class App extends Component {
       contact: "contact",
       hero: "hero",
       down: "icons/down-arrow.svg",
-      up: "icons/up-arrow.svg",
+      up: "icons/up-arrow.svg"  
     }
   }
 

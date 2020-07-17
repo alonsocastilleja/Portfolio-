@@ -17,6 +17,12 @@
   position: absolute;
   right: 0rem;
 }
+.farRight {
+  left: auto;
+  bottom: auto;
+  right: 2rem;
+  top: 2rem;
+}
 .bounce {
   animation: bounce 1.75s infinite;
 }
