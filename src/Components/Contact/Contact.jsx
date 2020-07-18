@@ -1,8 +1,7 @@
 import React from 'react';
 import './contact.css'
-import Footer from '../Utilities/Footer/Footer';
 
-const Contact = (props) => {
+const Contact = () => {
         return (
             <div>
                 <section id="contact">
@@ -18,7 +17,6 @@ const Contact = (props) => {
                             <button name="send" type="submit" className="contact__submit-btn">SEND</button>
                         </form> 
                     </div>
-                    <Footer up={props.up} arrow={props.arrow} style={props.style} />
                 </section>
             </div>
         );

@@ -1,7 +1,7 @@
 import React from 'react';
 import Arrow from '../Utilities/Arrows/Arrows';
 import projects from '../data/projects.json';
-import '../Projects/projects.css';
+import '../Projects/Projects.css';
 
 
 const Projects = (props) => {
@@ -10,6 +10,7 @@ const Projects = (props) => {
             <section className="projects">
                         <div className="projects__heading">
                             <h2 className="projects__heading-font"><span className="char__font">[</span> Projects <span className="char__font">]</span></h2>
+                            <a href="">View more</a>
                         </div>
                     <div className="projects__content">
                         <div className="projects__card">
@@ -18,8 +19,8 @@ const Projects = (props) => {
                                 height={'100%'}
                                 width={'100%'}></img>
                             <h2 className="projects__subheading">{projects[0].title}</h2>
-                            <button className="projects__btn"><a href={projects[0].link}>Live Demo</a></button>
-                            <button className="projects__btn"><a href={projects[0].github}>Github</a></button>
+                            <button className="projects__btn"><a href={projects[0].link} rel='noopener noreferrer' target="_blank">Live Demo</a></button>
+                            <button className="projects__btn"><a href={projects[0].github} rel='noopener noreferrer' target="_blank">Github</a></button>
                         </div>
                         <div className="projects__card">
                             <img src={projects[1].icon} 
@@ -27,8 +28,8 @@ const Projects = (props) => {
                                 height={'100%'}
                                 width={'100%'}></img>
                             <h2 className="projects__subheading">{projects[1].title}</h2>
-                            <button className="projects__btn"><a href={projects[1].link}>Live Demo</a></button>
-                            <button className="projects__btn"><a href={projects[1].github}>Github</a></button>
+                            <button className="projects__btn"><a href={projects[1].link} rel='noopener noreferrer' target="_blank">Live Demo</a></button>
+                            <button className="projects__btn"><a href={projects[1].github} rel='noopener noreferrer' target="_blank">Github</a></button>
                         </div>
                         <div className="projects__card">
                             <img src={projects[2].icon} 
@@ -36,8 +37,8 @@ const Projects = (props) => {
                                 height={'100%'}
                                 width={'100%'}></img>
                               <h2 className="projects__subheading">{projects[2].title}</h2>
-                            <button className="projects__btn"><a href={projects[2].link}>Live Demo</a></button>
-                            <button className="projects__btn"><a href={projects[2].github}>Github</a></button>
+                            <button className="projects__btn"><a href={projects[2].link} rel='noopener noreferrer' target="_blank">Live Demo</a></button>
+                            <button className="projects__btn"><a href={projects[2].github} rel='noopener noreferrer' target="_blank">Github</a></button>
                         </div>
                     </div>
                    

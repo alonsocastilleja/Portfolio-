@@ -8,6 +8,7 @@ import About from './Components/About/About'
 import Skills from './Components/Skills/Skills';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Utilities/Footer/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -20,7 +21,9 @@ class App extends Component {
       contact: "contact",
       hero: "hero",
       down: "icons/down-arrow.svg",
-      up: "icons/up-arrow.svg"  
+      up: "icons/up-arrow.svg",
+      farRight: true,
+  
     }
   }
 
@@ -35,6 +38,7 @@ class App extends Component {
         <Skills down={this.state.projects} arrow={this.state.down}/>
         <Projects down={this.state.contact} arrow={this.state.down}/>      
         <Contact up={this.state.hero} arrow={this.state.up} />
+        <Footer up={this.state.up} arrow={this.state.arrow} style={this.state.farRight} />
       </div>
   );
   }
