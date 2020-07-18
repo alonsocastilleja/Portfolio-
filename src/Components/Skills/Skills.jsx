@@ -23,7 +23,7 @@ const Skills = (props) => {
                                             data-aos-duration="1000">
                                             <img 
                                                 src={skill.icon}
-                                                alt="hwovjnwai"></img>
+                                                alt="list of the skills I know in icons"></img>
                                                 <p className="skills__title">{skill.title}</p>
                                         </div>
                                     )

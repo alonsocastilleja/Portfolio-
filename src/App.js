@@ -38,7 +38,7 @@ class App extends Component {
         <Skills down={this.state.projects} arrow={this.state.down}/>
         <Projects down={this.state.contact} arrow={this.state.down}/>      
         <Contact up={this.state.hero} arrow={this.state.up} />
-        <Footer up={this.state.up} arrow={this.state.arrow} style={this.state.farRight} />
+        <Footer up={this.state.hero} arrow={this.state.up} style={this.state.farRight} />
       </div>
   );
   }

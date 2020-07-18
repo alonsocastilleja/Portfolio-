@@ -10,7 +10,6 @@ const Projects = (props) => {
             <section className="projects">
                         <div className="projects__heading">
                             <h2 className="projects__heading-font"><span className="char__font">[</span> Projects <span className="char__font">]</span></h2>
-                            <a href={'/'}>View more</a>
                         </div>
                     <div className="projects__content">
                         <div className="projects__card">

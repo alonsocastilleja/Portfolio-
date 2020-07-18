@@ -20,13 +20,14 @@
     margin: 1rem;
     letter-spacing: 0.3rem;
 }
-.footer__date {
+.footer__updateDay {
     background: #121212;
     color: rgba(255, 255, 255, 0.733);
     text-align: center;
     height: 4vh;
-    font-size: 0.95rem;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .footer__links i:hover {
-    color: #191970;
+    color: #707019;
 }

@@ -1,52 +1,52 @@
 [
     {
         "id": 1,
-        "icon": "icons/css3.png",
+        "icon": "icons/css3.jpg",
         "title": "CSS3"
     },
     {
         "id": 2,
-        "icon": "icons/html5.png",
+        "icon": "icons/html5.jpg",
         "title": "HTML5"
     },
     {
         "id": 3,
-        "icon": "icons/javascript.png",
+        "icon": "icons/javascript.jpg",
         "title": "Javascript"
     },
     {
         "id": 4,
-        "icon": "icons/github.png",
+        "icon": "icons/github.jpg",
         "title": "Github"
     },
     {
         "id": 5,
-        "icon": "icons/git.png", 
+        "icon": "icons/git.jpg", 
         "title": "Git"
     },
     {
         "id": 6,
-        "icon": "icons/nodejs.png",
+        "icon": "icons/nodejs.jpg",
         "title": "Node JS"
     },
     {
         "id": 7,
-        "icon": "icons/mysql.png",
+        "icon": "icons/mysql.jpg",
         "title": "MySQL"
     },
     {
         "id": 8,
-        "icon": "icons/reactjs.png",
+        "icon": "icons/reactjs.jpg",
         "title": "ReactJS"
     },
     {
         "id": 9,
-        "icon": "icons/sass.png",
+        "icon": "icons/sass.jpg",
         "title": "SASS"
     },
     {
         "id": 10,
-        "icon": "icons/design.png",
+        "icon": "icons/design.jpg",
         "title": "Design Thinking"
     }
 ]

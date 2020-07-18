@@ -8,7 +8,7 @@
 
 .App {
     display: grid;
-    grid-template-rows: 100vh 100vh 100vh 100vh 100vh 16vh;
+    grid-template-rows: repeat(5, 100vh);
     position: relative;
 }
 
@@ -19,7 +19,7 @@
 
 .char__font-about {
     font-size: 2rem;
-    color: #4545f0;
+    color: #2a53db;
 }
 
 .span__underline-text {

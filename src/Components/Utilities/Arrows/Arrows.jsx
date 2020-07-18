@@ -15,7 +15,6 @@ const Arrow = (props) => {
                       className={classes.join(' ')}
                       smooth={true}
                       spy={true}
-                      
                 >
                     <img src={props.arrow} alt="transition arrow"></img>
                 </Link>
