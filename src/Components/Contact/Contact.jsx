@@ -11,14 +11,17 @@ const Contact = () => {
                     </div>
                     <div className="contact__container">
                         <form name="htmlform" method="post" action="https://formsubmit.co/castilleja.alonso@gmail.com">
-                            <label for="full name">      
-                                <input type="text" name="first_name" placeholder="NAME" required></input>
+                            <label htmlFor="full name">
+                                Name      
+                                <input type="text" name="first_name" required></input>
                             </label>
-                            <label for="email address">
-                                <input  type="email" name="email" placeholder="EMAIL" required></input>
+                            <label htmlFor="email address">
+                                Email
+                                <input  type="email" name="email" required></input>
                             </label>
-                            <label for="comments or questions">
-                                <textarea name="comments" placeholder="MESSAGE" required ></textarea>
+                            <label htmlFor="comments or questions">
+                                Message
+                                <textarea name="comments" required ></textarea>
                             </label>
                             <button name="send" type="submit" className="contact__submit-btn">SEND</button>
                         </form> 
