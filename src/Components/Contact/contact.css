@@ -75,16 +75,16 @@ input::placeholder {
 	padding:5px 10px;
 	font-size: 1rem;
 	letter-spacing:0.1rem;
-    background: #707029;
+    background: #696969;
 	height:40px;
 	text-transform:uppercase;
 	letter-spacing:1px;
-    color: rgba(255, 255, 255, 0.87);
+    color: #FFF;
 }
 
 #contact .contact__container form .contact__submit-btn:hover {
-    background: #121212;
-    color: rgba(255, 255, 255, 0.87);
+    background: #707019;
+    color: black;
     transition: all ease-in 0.5s;
     cursor: pointer;
 }
