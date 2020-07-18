@@ -75,7 +75,7 @@ input::placeholder {
 	padding:5px 10px;
 	font-size: 1rem;
 	letter-spacing:0.1rem;
-    background: #696969;
+    background: #556b2f;
 	height:40px;
 	text-transform:uppercase;
 	letter-spacing:1px;
@@ -83,8 +83,8 @@ input::placeholder {
 }
 
 #contact .contact__container form .contact__submit-btn:hover {
-    background: #707019;
-    color: black;
+    background: #556b2f9f;
+    color: #FFF;
     transition: all ease-in 0.5s;
     cursor: pointer;
 }

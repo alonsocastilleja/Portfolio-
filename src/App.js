@@ -23,7 +23,6 @@ class App extends Component {
       down: "icons/down-arrow.svg",
       up: "icons/up-arrow.svg",
       farRight: true,
-  
     }
   }
 
