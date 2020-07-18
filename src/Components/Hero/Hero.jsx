@@ -10,12 +10,12 @@ const Hero = (props) => {
                 <main className="hero">
                     <Header />
 
-                    <div className="hero__text"> 
+                    <article className="hero__text"> 
                         <h1 className="hero__name-hello">Hello, my name is</h1>
                         <h2 className="hero__name">Alonso <u className="span__underline-text">Castilleja</u><span className="span__style-red">.</span></h2>
                         <p className="hero__subtitle"><span className="char__font">&#60;</span>  Software Developer <span className="char__font"> &#62; </span></p>
                         <button className="hero__btn"><a href="/resume.pdf" target="_blank">Resume</a></button>
-                    </div>
+                    </article>
                     <Sidebar />
                     <Arrow down={props.down} arrow={props.arrow} />
                 </main>

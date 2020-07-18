@@ -5,8 +5,7 @@ import Arrow from '../Arrows/Arrows';
 const Footer = (props) => {
         return (
             <div>
-                <div>
-                   <div className="footer">
+                   <footer className="footer">
                         <ul className="footer__links">
                             <a href="mailTo:castilleja.alonso@gmail.com"><i className="fa fa-envelope"></i></a>
                             <a href={'/'}><i className="fa fa-codepen"></i></a>
@@ -15,8 +14,7 @@ const Footer = (props) => {
                         </ul>
                         <h3 className="footer__updateDay">&copy; Last updated: 7-17-20</h3>
                         <Arrow down={props.up} arrow={props.arrow} farRight={true}/>
-                    </div>
-                </div>
+                    </footer>
             </div>
         );
     }
