@@ -11,7 +11,6 @@
     position: relative;
 }
 .about__text {
-    background: rgba(0, 0, 0, 0.2);
     color: #FFF;
     padding: 3rem;
     max-width: 600px;
@@ -40,7 +39,6 @@
     margin-bottom: 2rem;
 }
 .about__photo {
-    background: rgba(99, 99, 99, 0.03);
     height: 27rem;
 }
 .about__photo img {
