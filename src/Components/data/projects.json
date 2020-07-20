@@ -1,65 +1,100 @@
 [
     {
         "id": 1,
+        "title": "Gateway Project",
+        "icon": "screenshots/Gateway.jpg",
+        "link": "https://gateway-paris.netlify.app/todo.html",
+        "github": "https://github.com/alonsocastilleja/Gateway"
+    },
+    {
+        "id": 2,
+        "title": "Alonso's Hotels",
+        "icon": "screenshots/alonso-hotels.jpg",
+        "link": "https://alonsohotels-468bc8.netlify.app/",
+        "github": "https://github.com/alonsocastilleja/AlonsoHotels"
+    },
+    {
+        "id": 3,
         "icon": "screenshots/movie-search.jpg",
         "title": "Movie Search",
         "link": "https://find-your-favorite-movies-e37df8.netlify.app/",
         "github": "https://github.com/alonsocastilleja/Movie-Search-"
     },
     {
-        "id": 2,
+        "id": 4,
+        "icon": "screenshots/weather-node.jpg",
+        "title": "Weather App",
+        "link": "https://github.com/alonsocastilleja/Weather-App-",
+        "github": "https://github.com/alonsocastilleja/Weather-App-"
+    },
+    {
+        "id": 5,
         "icon": "screenshots/tictactoe.jpg",
         "title": "Tic-Tac-Toe",
         "link": "https://tic-tac-toe-fun-67d5d1.netlify.app/",
         "github": "https://github.com/alonsocastilleja/Tic-Tac-Toe"
     },
     {
-        "id": 3,
+        "id": 6,
         "icon": "screenshots/verge.jpg",
-        "title": "The verge website redesign",
+        "title": "The Verge Redesign",
         "link": "https://r2h-the-verge-clone.netlify.app/",
         "github": "https://github.com/alonsocastilleja/tech-today"
     },
     {
-        "id": 4,
-        "icon": "screenshots/ecommerce-2nd.jpg",
-        "title": "Ecommerce - 2nd",
-        "github": "https://github.com/alonsocastilleja/TitanSolutions-Ecommerce-2nd",
-        "link": "https://5eea7eebf4d12d95e2b74fc4--titansolutions2nd-7805af.netlify.app/"
-    }
-    ,
+        "id": 7,
+        "icon": "screenshots/friends.jpg",
+        "title": "Manage Friends",
+        "link": "https://githubcards-3aca50.netlify.app/",
+        "github": "https://github.com/alonsocastilleja/Manage-Friends-"
+    },
     {
-        "id": 5,
+        "id": 8,
         "icon": "screenshots/todo.jpg", 
         "title": "To-do List",
         "link": "https://speechrecognition-af04e3.netlify.app/"
     },
     {
-        "id": 6,
+        "id": 9,
         "icon": "screenshots/speech.jpg",
-        "title": "Guessing Game with Speech Recognition",
+        "title": "Guessing Game",
         "link": "https://5eea7eebf4d12d95e2b74fc4--titansolutions2nd-7805af.netlify.app/",
         "github": "https://github.com/alonsocastilleja/Guessing-Game-w-Speech-Recogniton"
     },
     {
-        "id": 7,
+        "id": 10,
         "icon": "screenshots/github-find.jpg",
         "title": "Github Card Search",
         "link": "https://githubcards-3aca50.netlify.app/",
         "github": "https://github.com/alonsocastilleja/GithubCards"
     },
     {
-        "id": 8,
+        "id": 9,
         "icon": "screenshots/ecommerce-1st.jpg",
         "title": "Ecommerce - 1st",
         "link": "https://titanproductspt1-7e0e75.netlify.app/",
         "github": "https://github.com/alonsocastilleja/TitanEcommerce-part1"
     },
     {
-        "id": 9,
-        "icon": "screenshots/friends.jpg",
-        "title": "Manage Friends",
-        "link": "https://githubcards-3aca50.netlify.app/",
-        "github": "https://github.com/alonsocastilleja/Manage-Friends-"
+        "id": 10,
+        "icon": "screenshots/ecommerce-2nd.jpg",
+        "title": "Ecommerce - 2nd",
+        "github": "https://github.com/alonsocastilleja/TitanSolutions-Ecommerce-2nd",
+        "link": "https://5eea7eebf4d12d95e2b74fc4--titansolutions2nd-7805af.netlify.app/"
+    },
+    
+    {
+        "id": 11,
+        "icon": "screenshots/pokemon-inquirer.jpg",
+        "title": "Pokemon Inquirer",
+        "link": "https://github.com/alonsocastilleja/Pokemon-Inquirer",
+        "github": "https://github.com/alonsocastilleja/Pokemon-Inquirer"
+    },
+    {
+        "id": 12,
+        "icon": "screenshots/calculator.jpg",
+        "title": "Calculator",
+        "link": "https://calculatordom-ec726.netlify.app/",
+        "github": "https://github.com/alonsocastilleja/CalculatorApp"
     }
 ]

@@ -58,12 +58,14 @@
     color: #FFF;
     font-size: 1.5rem;
     border: 0.1rem solid #707019;
+    outline: none;
 }
 .projects__btn a{
     text-decoration: none;
 }
 .projects__btn:hover {
-    background: #191970;
+    background: black;
     transition: all ease-in 0.5s;
     cursor: pointer;
+    outline: none;
 }
